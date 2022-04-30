@@ -1,0 +1,14 @@
+* {
+    border-radius: 5px;
+
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.images{
+    height: 400px;
+    width: 250px;
+    object-fit: contain;
+}
